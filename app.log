@@ -1,0 +1,13 @@
+WARNING:tensorflow:From C:\Users\muhar\anaconda3\Lib\site-packages\keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+WARNING:tensorflow:From C:\Users\muhar\anaconda3\Lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From C:\Users\muhar\anaconda3\Lib\site-packages\keras\src\saving\legacy\save.py:538: The name tf.train.NewCheckpointReader is deprecated. Please use tf.compat.v1.train.NewCheckpointReader instead.
+
+WARNING:tensorflow:From C:\Users\muhar\anaconda3\Lib\site-packages\keras\src\backend.py:873: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+WARNING:tensorflow:From C:\Users\muhar\anaconda3\Lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From C:\Users\muhar\anaconda3\Lib\site-packages\keras\src\saving\legacy\save.py:538: The name tf.train.NewCheckpointReader is deprecated. Please use tf.compat.v1.train.NewCheckpointReader instead.
+
+ERROR:root:Aðýrlýklar yüklenirken hata oluþtu: Received incompatible tensor with shape (64, 128) when attempting to restore variable with shape (768, 128) and name dense/kernel:0.

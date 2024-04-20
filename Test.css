@@ -1,0 +1,56 @@
+h2{
+    color: dodgerblue;
+}
+
+
+
+
+.KanserTeshisPng
+{
+    width: 83rem;
+    position: relative;
+    left: -1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.image-card {
+    perspective: 1000px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .glide__slide {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .image-card.opened .glide__slide {
+    transform: rotateY(180deg);
+  }
+  
+  .image-info {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+  }
+  
+  .image-card.opened .image-info {
+    display: block;
+  }
+  
+
+ 

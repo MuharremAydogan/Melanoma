@@ -1,0 +1,136 @@
+
+.container{
+    margin-bottom: 1.5rem;
+    
+  }
+
+  .Bolum{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 1.5rem;
+    border: 2px solid aliceblue;
+    border-radius: 1rem;
+   background-color: darkgrey;
+
+
+}
+.Resim{
+    height: 25rem;
+    width: 27rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    padding:0.5rem;
+    object-fit: cover;
+}
+.Bilgi
+{
+    width: 30rem;
+    height: 25rem;
+    overflow:hidden;
+    border: antiquewhite;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    color:aliceblue;
+    
+    padding: 1rem;
+    
+}
+
+.DoktorBaslik
+{
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 10rem;
+  margin-bottom: 1.5rem;
+}
+
+
+
+.image-card {
+  perspective: 1000px;
+  cursor: pointer;
+  position: relative;
+}
+
+.glide__slide {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.image-card.opened .glide__slide {
+  transform: rotateY(180deg);
+}
+
+.image-info {
+  display: none;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+.image-card.opened .image-info {
+  display: block;
+}
+
+
+/*Footer*/
+footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-icons {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+/*Contact*/
+
+#contact {
+  color: #fff;
+  padding: 1rem;
+}
+
+#contact .contact-form {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#contact .contact-form ul {
+  list-style-type: none;
+  display: flex;
+  
+  margin-top: 1rem;
+  align-self: center;
+  
+}
+#contact .contact-form ul li a {
+  padding: 1rem;
+  font-size: 2rem;
+
+}
+#contact .contact-form ul li a:hover {
+  opacity: 0.8;
+}
+
+
